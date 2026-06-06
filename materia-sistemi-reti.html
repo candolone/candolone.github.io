@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistemi e Reti - Francesco Candi">
+    <meta property="og:title" content="Sistemi e Reti - Francesco Candi">
+    <title>Sistemi e Reti - Francesco Candi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="section-light">
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html#home" class="nav-logo">Francesco Candi</a>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="materie.html" class="active">Materie</a></li>
+                    <li><a href="educazione-civica.html">Ed. Civica</a></li>
+                    <li><a href="fsl.html">FSL</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-page">
+        <article class="container article-content">
+            <div class="article-header fade-in-section">
+                <span class="eyebrow">Area Tecnica</span>
+                <h1>Sistemi e Reti</h1>
+            </div>
+            
+            <img src="immagini/materia-sistemi-reti.jpg" alt="Sistemi e Reti" class="content-img fade-in-section" loading="lazy">
+            
+            <div class="article-body fade-in-section">
+                <p>È la materia della seconda prova scritta, e lo si sente nel peso che ha avuto durante l'anno. Ho lavorato tantissimo con Cisco Packet Tracer — simulare una rete, configurare un firewall, costruire una VPN — e ho capito che l'infrastruttura di rete è un po' come il cablaggio di un edificio: non la vedi, ma se non funziona, non funziona niente. La parte sulla crittografia mi ha particolarmente colpito: mi aspettavo formule astratte, invece è un sistema di fiducia costruito su matematica — e improvvisamente HTTPS, i certificati digitali e la firma elettronica hanno smesso di essere cose vaghe e sono diventate meccanismi che capisco davvero.</p>
+                <p><strong>Argomenti:</strong> Progettazione LAN: IPv4, subnetting VLSM, DHCP &middot; TCP e UDP, porte, socket &middot; Protocolli applicativi: HTTP, FTP, DNS, SMTP &middot; VLAN &middot; Crittografia: AES, RSA, certificati, hashing, firma digitale &middot; Sicurezza: CIA, firewall, ACL, NAT/PAT, proxy, DMZ, VPN (IPsec, SSL/TLS) &middot; Wireless: 802.11, WPA2, 4G/LTE, 5G &middot; Cloud, cablaggio strutturato, IoT</p>
+                
+                <h3>Presentazione: Certificati digitali — Come funziona la fiducia nel mondo digitale</h3>
+                <p>Per Sistemi e Reti io e il mio compagno Rotoloni abbiamo realizzato una presentazione sui <strong>certificati digitali</strong> — uno di quei meccanismi che usiamo ogni giorno senza saperlo, ogni volta che vediamo il lucchetto nella barra del browser.</p>
+                <p>Il punto di partenza è stato un problema concreto: Anna vuole mandare un messaggio sicuro a Bruno, ma come fa Bruno a sapere che la chiave pubblica che ha ricevuto è davvero di Anna e non di un attaccante che si è sostituito a lei? Questo si chiama attacco <strong>Man-in-the-Middle</strong>, ed è esattamente il problema che i certificati digitali risolvono. La soluzione elegante è semplice nell'idea: una terza parte fidata — la Certification Authority (CA) — certifica l'associazione tra una chiave pubblica e una identità reale, firmando il certificato con la propria chiave privata. L'analogia che abbiamo usato in presentazione è quella della carta d'identità: lo Stato associa un volto a un nome e ne garantisce la veridicità, la CA fa lo stesso con una chiave pubblica.</p>
+                <p>Abbiamo poi approfondito l'intera infrastruttura che ci sta dietro — la <strong>PKI (Public Key Infrastructure)</strong>, la gerarchia di fiducia a tre livelli (CA Root &rarr; CA Intermedie &rarr; utenti finali), il processo di emissione di un certificato, i formati standard (X.509 e PGP), i meccanismi di revoca (CRL e OCSP) e il quadro normativo italiano ed europeo: dalla Legge Bassanini del 1997 fino al CAD, che obbliga la Pubblica Amministrazione ad adottare strumenti digitali.</p>
+                <p>La cosa che mi ha convinto di più lavorando su questo argomento è che la fiducia nel mondo digitale non è una questione astratta — è un'architettura reale, con regole precise, attori definiti e conseguenze legali concrete. La firma digitale equivale a una firma autografa per legge in tutta l'Unione Europea. È qualcosa che sembra tecnico ma è, a tutti gli effetti, un pilastro della vita civile moderna.</p>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="materie.html" class="btn btn-secondary"><i class="fa-solid fa-arrow-left"></i> Torna alle materie</a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <span class="footer-logo">Francesco Candi</span>
+                <p class="footer-desc">Studente di Informatica presso IIS Marconi Pieralisi di Jesi.</p>
+            </div>
+            <div>
+                <h4>Navigazione</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="materie.html">Materie Scolastiche</a></li>
+                    <li><a href="educazione-civica.html">Educazione Civica</a></li>
+                    <li><a href="fsl.html">FSL</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contatti</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:fracandi07@gmail.com"><i class="fa-solid fa-envelope"></i> fracandi07@gmail.com</a></li>
+                    <li><a href="https://instagram.com/fra.candi" target="_blank"><i class="fa-brands fa-instagram"></i> @fra.candi</a></li>
+                    <li><a href="https://github.com/candolone" target="_blank"><i class="fa-brands fa-github"></i> candolone</a></li>
+                    <li><a href="contatti.html">Tutti i contatti</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Francesco Candi. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

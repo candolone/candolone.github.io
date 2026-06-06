@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contatti - Francesco Candi">
+    <meta property="og:title" content="Contatti - Francesco Candi">
+    <title>Contatti - Francesco Candi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 2rem;
+            background-color: var(--color-bg-card);
+            border: 1px solid rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .contact-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            color: var(--color-accent);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(192, 125, 74, 0.1);
+            border-radius: 50%;
+        }
+        
+        .contact-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.3rem;
+            color: var(--color-text-on-light);
+        }
+        
+        .contact-info a, .contact-info p {
+            color: var(--color-text-muted-light);
+            font-size: 1.1rem;
+        }
+        
+        .contact-info a:hover {
+            color: var(--color-accent);
+        }
+    </style>
+</head>
+<body class="section-light">
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html#home" class="nav-logo">Francesco Candi</a>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="materie.html">Materie</a></li>
+                    <li><a href="educazione-civica.html">Ed. Civica</a></li>
+                    <li><a href="fsl.html">FSL</a></li>
+                    <li><a href="contatti.html" class="active">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-page">
+        <div class="container">
+            <div class="article-header fade-in-section">
+                <span class="eyebrow">Riferimenti</span>
+                <h1>Contatti</h1>
+            </div>
+            
+            <ul class="contact-list fade-in-section">
+                <li class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-info">
+                        <h3>Email Personale</h3>
+                        <a href="mailto:fracandi07@gmail.com">fracandi07@gmail.com</a>
+                    </div>
+                </li>
+                
+                <li class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="contact-info">
+                        <h3>Email Scolastica</h3>
+                        <a href="mailto:st10802@iismarconipieralisi.it">st10802@iismarconipieralisi.it</a>
+                    </div>
+                </li>
+                
+                <li class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contact-info">
+                        <h3>Telefono</h3>
+                        <a href="tel:+393500830477">+39 350 083 0477</a>
+                    </div>
+                </li>
+                
+                <li class="contact-item">
+                    <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="contact-info">
+                        <h3>Instagram</h3>
+                        <a href="https://instagram.com/fra.candi" target="_blank">@fra.candi</a>
+                    </div>
+                </li>
+                
+                <li class="contact-item">
+                    <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/candolone" target="_blank">github.com/candolone</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <span class="footer-logo">Francesco Candi</span>
+                <p class="footer-desc">Studente di Informatica presso IIS Marconi Pieralisi di Jesi.</p>
+            </div>
+            <div>
+                <h4>Navigazione</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="materie.html">Materie Scolastiche</a></li>
+                    <li><a href="educazione-civica.html">Educazione Civica</a></li>
+                    <li><a href="fsl.html">FSL</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contatti</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:fracandi07@gmail.com"><i class="fa-solid fa-envelope"></i> fracandi07@gmail.com</a></li>
+                    <li><a href="https://instagram.com/fra.candi" target="_blank"><i class="fa-brands fa-instagram"></i> @fra.candi</a></li>
+                    <li><a href="https://github.com/candolone" target="_blank"><i class="fa-brands fa-github"></i> candolone</a></li>
+                    <li><a href="contatti.html">Tutti i contatti</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Francesco Candi. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

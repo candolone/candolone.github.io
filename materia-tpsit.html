@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TPSIT - Francesco Candi">
+    <meta property="og:title" content="TPSIT - Francesco Candi">
+    <title>TPSIT - Francesco Candi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="section-light">
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html#home" class="nav-logo">Francesco Candi</a>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="materie.html" class="active">Materie</a></li>
+                    <li><a href="educazione-civica.html">Ed. Civica</a></li>
+                    <li><a href="fsl.html">FSL</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-page">
+        <article class="container article-content">
+            <div class="article-header fade-in-section">
+                <span class="eyebrow">Area Tecnica</span>
+                <h1>TPSIT</h1>
+            </div>
+            
+            <img src="immagini/materia-tpsit.jpg" alt="TPSIT" class="content-img fade-in-section" loading="lazy">
+            
+            <div class="article-body fade-in-section">
+                <p>In TPSIT la parte che ho trovato più stimolante è stata lo sviluppo Android. Non tanto per la tecnologia in sé, ma per quello che rappresenta: imparare a costruire qualcosa che gira su un dispositivo che tutti portano in tasca, con un ciclo completo che va dalla prima riga di codice alla pubblicazione. La parte sulla concorrenza, invece, è stata la più faticosa — capire cosa succede quando più processi si contendono la stessa risorsa richiede un tipo di ragionamento che all'inizio non mi veniva naturale. Ma è proprio lì che ho capito l'importanza del metodo.</p>
+                <p><strong>Argomenti:</strong> Concorrenza: thread, semafori, race condition, produttore/consumatore &middot; Ciclo di vita del software, Agile &middot; Android: architettura del sistema, Android Studio, activity lifecycle, Material Design, sensori, database, webservice, testing, rilascio</p>
+                
+                <h3>Presentazione: Android 9 Pie — Novità e Analisi rispetto ad Android 8 Oreo</h3>
+                <p>Per TPSIT io e il mio compagno Rotoloni abbiamo realizzato una presentazione tecnica su <strong>Android 9 Pie</strong>, analizzando le novità introdotte rispetto ad Android 8 Oreo. Non una panoramica generica: abbiamo scelto di andare in profondità su cosa è cambiato davvero sotto il cofano, e perché.</p>
+                <p>La cosa che mi ha colpito di più è stata la parte sull'<strong>Adaptive Battery</strong>: Android 9 usa il machine learning — sviluppato con DeepMind — per prevedere quali app l'utente userà e quali no, limitando di conseguenza l'accesso alla CPU e alla rete per quelle che non servono. È un approccio predittivo, non reattivo — il sistema non aspetta che la batteria si scarichi, anticipa le abitudini dell'utente. Ho trovato affascinante il parallelo con quello che stavamo studiando in Intelligenza Artificiale nello stesso periodo.</p>
+                <p>Abbiamo poi analizzato le novità su sicurezza e privacy (autenticazione biometrica unificata, blocco dei sensori in background, HTTPS obbligatorio di default, DNS over TLS), la nuova navigazione a gesture con la pillola centrale, il Benessere Digitale con Dashboard e App Timers, e le funzionalità multimediali come il supporto Multi-camera e il formato HEIF. La presentazione si è conclusa con un confronto finale Oreo vs Pie su quattro dimensioni: intelligenza del sistema, user experience, sicurezza e multimedia.</p>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="materie.html" class="btn btn-secondary"><i class="fa-solid fa-arrow-left"></i> Torna alle materie</a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <span class="footer-logo">Francesco Candi</span>
+                <p class="footer-desc">Studente di Informatica presso IIS Marconi Pieralisi di Jesi.</p>
+            </div>
+            <div>
+                <h4>Navigazione</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="materie.html">Materie Scolastiche</a></li>
+                    <li><a href="educazione-civica.html">Educazione Civica</a></li>
+                    <li><a href="fsl.html">FSL</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contatti</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:fracandi07@gmail.com"><i class="fa-solid fa-envelope"></i> fracandi07@gmail.com</a></li>
+                    <li><a href="https://instagram.com/fra.candi" target="_blank"><i class="fa-brands fa-instagram"></i> @fra.candi</a></li>
+                    <li><a href="https://github.com/candolone" target="_blank"><i class="fa-brands fa-github"></i> candolone</a></li>
+                    <li><a href="contatti.html">Tutti i contatti</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Francesco Candi. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
